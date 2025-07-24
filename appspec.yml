@@ -9,8 +9,3 @@ hooks:
     - location: after_install.sh
       timeout: 300
       runas: root
-
-  ApplicationStart:
-    - location: restart_server.sh
-      timeout: 300
-      runas: root
